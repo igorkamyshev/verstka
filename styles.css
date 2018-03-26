@@ -3,11 +3,13 @@ body {
     line-height: 34px;
 }
 
-header {
-    background-color: #FD739C;
-    color: #FFF;
+header,
+nav {
+    background-color: #fd739c;
+    color: #fff;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
