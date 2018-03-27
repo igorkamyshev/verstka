@@ -4,8 +4,8 @@
 
 .restaurants-list__title {
     font-size: 22px;
-    line-height: 34px;
     font-weight: normal;
+    line-height: 34px;
     margin: 0px;
 }
 
@@ -19,23 +19,62 @@
 
 .restaurant-card__title {
     font-size: 16px;
-    line-height: 24px;
     font-weight: normal;
+    line-height: 24px;
     margin: 16px 0 4px 0;
 }
 
 .restaurant-card__info {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: normal;
-    margin: 0;
     color: #626262;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    margin: 0;
 }
 
 .restaurant-card__time {
-    font-size: 13px;
-    line-height: 21px;
-    font-weight: normal;
-    margin: 4px 0 20px 0;
     color: #1D1D1D;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 21px;
+    margin: 4px 0 20px 0;
+}
+
+.footer {
+    background: #262626;
+    margin-top: 64px;
+}
+
+.footer__section {
+}
+
+.footer__section:after {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin-left: 1px;
+    margin-right: -100%;
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.footer__badges {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__store-badge {
+    margin: 40px 20px;
+    height: 40px;
+}
+
+.footer__micro-info {
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 13px;
+    margin: 40px 0;
+    text-decoration: none;
 }
